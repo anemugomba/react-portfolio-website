@@ -19,14 +19,20 @@ function NavigationBar() {
     <div className='fixed'>
       <div className='navigation-container'>
         <div className={`topnav ${responsive ? 'responsive' : ''}`} id="myTopnav">
-          <span>Anesu Mugomba</span>
+          <span className='social-icons'>
+            <i className="fa fa-github fa-xs"></i>
+
+            <i className="fa fa-linkedin-square"></i>
+
+            <i className="fa fa-twitter"></i>
+          </span>
 
           <div className="url-container">
             <Link to={{ pathname: "/home" }} className="active">Home</Link>
-            <Link to={{ pathname: "/about" }}>About Me</Link>
             <Link to={{ pathname: "/portfolio" }}>Portfolio</Link>
             <Link to={{ pathname: "/contact" }}>Contact</Link>
           </div>
+
 
           <span className="icon" onClick={() => { setResponsive(!responsive) }}>
             <i className="fa fa-bars"></i>
@@ -38,7 +44,6 @@ function NavigationBar() {
             <div className='topnav-popup-container'>
               <Link to={{ pathname: "/home" }} className="active">Home</Link>
               <Link to={{ pathname: "/about" }}>About Me</Link>
-              <Link to={{ pathname: "/portfolio" }}>Portfolio</Link>
               <Link to={{ pathname: "/contact" }}>Contact</Link>
             </div>
           </div>

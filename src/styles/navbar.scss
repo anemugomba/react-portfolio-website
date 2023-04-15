@@ -3,6 +3,14 @@
     background-color: #fff;
     overflow: hidden;
     font-family: 'Quicksand', sans-serif;
+
+    .social-icons {
+        font-size: 27px;
+        cursor: pointer;
+        i {
+            margin-left: 10px;
+        }
+    }
 }
 
 .url-container {
@@ -52,7 +60,7 @@
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav :not(:first-child) {
+    .topnav .url-container {
         display: none;
     }
 
@@ -80,7 +88,7 @@
 .topnav-float {
     position: absolute;
     z-index: 3;
-    top: 40px;
+    top: 50px;
     left: 0;
     display: block;
     width: 100%;
@@ -90,7 +98,6 @@
     flex-direction: column;
     padding: 10px;
     margin: 20px;
-    border-radius: 10px;
     background-color: #fff;
 
 
@@ -103,6 +110,10 @@
         font-size: 15px;
         color: #414141;
         font-weight: bold;
+    }
+
+    a:hover {
+        color: #ddd;
     }
 }
 
