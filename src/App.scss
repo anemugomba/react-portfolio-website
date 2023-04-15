@@ -1,0 +1,10 @@
+@use 'styles/navbar.scss';
+@use 'styles/home/hero.scss';
+@use 'styles/home/home.scss';
+@use 'styles/home/tag.scss';
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+  position: relative;
+}

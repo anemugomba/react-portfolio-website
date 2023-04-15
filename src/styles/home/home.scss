@@ -1,0 +1,33 @@
+.work-heading {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    span {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+
+.work-section-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    span {
+        text-align: center;
+    }
+}
+
+.tags-wrapper {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+}
