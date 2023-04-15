@@ -10,10 +10,10 @@ export default function Project() {
             <div className='project-details'>
 
                 <div>
-                    <Tag name='MySql'/>
-                    <Tag name='SlimPHP'/>
-                    <Tag name='AWS'/>
-                    <Tag name='+2'/>
+                    <Tag name='MySql' />
+                    <Tag name='SlimPHP' />
+                    <Tag name='AWS' />
+                    <Tag name='+2' />
                 </div>
 
                 <div className='project-title'>
@@ -28,6 +28,17 @@ export default function Project() {
                         The solar system found love and went on to the roof of a battery. ...
                     </span>
                 </div>
+
+                <div className="projects-buttons">
+                    <button className='hero-button hero-button-black'>
+                    <i className="fa fa-eye"></i> More
+                    </button>
+
+                    <button className='hero-button hero-button-white'>
+                    <i className="fa fa-github"></i> Github Repo
+                    </button>
+                </div>
+
             </div>
         </div>
     )

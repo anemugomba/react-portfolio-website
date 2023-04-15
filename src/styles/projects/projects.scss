@@ -4,15 +4,12 @@
     font-family: 'Quicksand', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .project-image-header {
     display: flex;
     justify-content: center;
-}
-
-.project-img {
-
 }
 
 .project-title {
@@ -34,4 +31,10 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
+}
+
+.projects-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
 }
