@@ -31,3 +31,45 @@
     display: flex;
     justify-content: center;
 }
+
+.projects-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    place-items: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+        place-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 766px) {
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+        place-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        place-items: center;
+    }
+    
+}

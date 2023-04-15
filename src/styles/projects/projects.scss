@@ -1,0 +1,37 @@
+.project-card-container {
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-image-header {
+    display: flex;
+    justify-content: center;
+}
+
+.project-img {
+
+}
+
+.project-title {
+    margin-top: 10px;
+    span {
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+
+.project-description {
+    span {
+        font-size: smaller;
+    }
+}
+
+.project-details {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}

@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {FC} from 'react'
 
-export default function Tag() {
+interface TagProps {
+    name: string
+}
+
+export const Tag:FC<TagProps> = ({name}) => {
     return (
         <div className='tag-container'>
-            <span>Tag</span>
-            <span>(9)</span>
+            <span>{name}</span>
         </div>
     )
 }
+
+export default Tag
