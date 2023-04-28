@@ -40,35 +40,23 @@
     place-items: center;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 1024px) {
     .projects-container {
-        display: grid;
         grid-template-columns: auto auto;
-        padding: 10px;
-        place-items: center;
     }
-    
 }
 
-@media screen and (max-width: 766px) {
-
+@media screen and (max-width: 768px) {
     .projects-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        padding: 10px;
-        place-items: center;
-    }
-    
-}
-
-@media screen and (max-width: 560px) {
-
-    .projects-container {
-        display: grid;
         grid-template-columns: auto;
-        padding: 10px;
-        place-items: center;
     }
-    
 }
+
+@media screen and (max-width: 640px) {
+    .projects-container {
+        grid-template-columns: auto;
+    }
+}
+
+
+
