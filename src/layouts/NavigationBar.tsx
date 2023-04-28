@@ -28,8 +28,9 @@ function NavigationBar() {
           </span>
 
           <div className="url-container">
-            <Link to={{ pathname: "/home" }} className="active">Home</Link>
-            <Link to={{ pathname: "/portfolio" }}>Portfolio</Link>
+            <Link to={{ pathname: "/home" }} className="active">About Me</Link>
+            <Link to={{ pathname: "/home" }} >Experience</Link>
+            <Link to={{ pathname: "/portfolio" }}>Projects</Link>
             <Link to={{ pathname: "/contact" }}>Contact</Link>
           </div>
 
