@@ -1,10 +1,13 @@
-/* Add a black background color to the top navigation */
+
+@import "variables";
+
 .topnav {
     background-color: #fff;
     overflow: hidden;
     font-family: 'Quicksand', sans-serif;
 
     .social-icons {
+        color: $base-color;
         font-size: 27px;
         cursor: pointer;
         i {
