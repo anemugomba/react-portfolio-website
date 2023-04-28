@@ -30,13 +30,18 @@ export default function Project() {
                 </div>
 
                 <div className="projects-buttons">
-                    <button className='hero-button hero-button-black'>
-                    <i className="fa fa-eye"></i> More
-                    </button>
 
-                    <button className='hero-button hero-button-white'>
-                    <i className="fa fa-github"></i> Github Repo
-                    </button>
+                    <span>
+                        <i className="fa fa-github xl"></i>
+                    </span>
+
+                    <span>
+                        <i className="fa fa fa-external-link"></i>
+                    </span>
+
+                    <span>
+                        <i className="fa fa-info-circle"></i>
+                    </span>
                 </div>
 
             </div>

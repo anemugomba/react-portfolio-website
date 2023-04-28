@@ -1,3 +1,5 @@
+@import "../variables";
+
 .project-card-container {
     width: 300px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -7,6 +9,10 @@
     padding-bottom: 10px;
 }
 
+.project-card-container:hover {
+    transform: scale(1.02);
+    cursor: pointer
+}
 .project-image-header {
     display: flex;
     justify-content: center;
@@ -35,6 +41,16 @@
 
 .projects-buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     padding-top: 10px;
+
+    span {
+        margin: 7px;
+        font-size: 21px;
+        color: #676767
+    }
+
+    span:hover {
+        color: $base-color
+    }
 }

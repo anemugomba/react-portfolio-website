@@ -45,6 +45,11 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.hero-button:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
 .hero-button-black {
     background-color: $base-color;
     color: #fff;
