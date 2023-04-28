@@ -2,10 +2,11 @@ import React from 'react'
 import Hero from '../components/Hero';
 import Tag from '../components/Tag';
 import Project from '../components/Project';
+import Contact from "../contact/Contact";
 
 export default function Home() {
     return (
-        <div style={{paddingTop: 50}}>
+        <div style={{paddingTop: 50,paddingBottom: 200}}>
             <Hero />
             <div className='work-heading'>
                 <span className='work-heading'>Projects</span>
@@ -26,6 +27,8 @@ export default function Home() {
                 <Project/>
                 <Project/>
             </div>
+
+            <Contact/>
         </div>
     );
 }

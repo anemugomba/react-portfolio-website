@@ -1,0 +1,22 @@
+@import "../variables";
+
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 30px;
+
+  .heading {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    line-height: 1.1;
+    font-size: 40px;
+  }
+
+  p {
+    padding: 20px;
+    text-align: center;
+  }
+}
