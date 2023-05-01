@@ -36,7 +36,7 @@ export default function Hero() {
                 <div style={{ marginTop: 20 }} className='hero-buttons'>
 
                     <div style={{ marginRight: 10, display: 'inline' }}>
-                        <button className='hero-button hero-button-black'>Contact me</button>
+                        <button className='hero-button hero-button-black'>Resume</button>
                     </div>
 
                     <button className='hero-button hero-button-white'>Check my work</button>

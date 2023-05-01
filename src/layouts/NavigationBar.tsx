@@ -25,6 +25,7 @@ function NavigationBar() {
             <i className="fa fa-linkedin-square"></i>
 
             <i className="fa fa-twitter"></i>
+
           </span>
 
           <div className="url-container">
@@ -32,6 +33,7 @@ function NavigationBar() {
             <Link to={{ pathname: "/home" }} >Experience</Link>
             <Link to={{ pathname: "/portfolio" }}>Projects</Link>
             <Link to={{ pathname: "/contact" }}>Contact</Link>
+
           </div>
 
 
