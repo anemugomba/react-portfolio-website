@@ -6,7 +6,7 @@ export default function Hero() {
             <div className='hero-left-section'>
                 <div className='hero-img-container'>
                     <div className='hero-img-placeholder'>
-                        <img src='https://placehold.co/200x200.png' alt='User Image' className='hero-img-placeholder'/>
+                        <img src='https://placehold.co/200x200?text=Coming+Soon' alt='User Image' className='hero-img-placeholder'/>
                     </div>
                 </div>
             </div>

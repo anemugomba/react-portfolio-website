@@ -21,6 +21,7 @@ export default function Home() {
             <div style={{display: 'flex', alignItems: 'center', justifyContent: "center"}}>
                 <h5>Coming soon ...</h5>
             </div>
+
             {/*<div className='projects-container'>
                 {projectsData.map((item, index) => {
                     return <ProjectCard project={item} key={item.id}/>
