@@ -22,14 +22,8 @@ export default function Hero() {
 
                 <div style={{ marginTop: 20 }} className='hero-bio'>
                     <span>
-                    I'm an Experienced Software Engineer with a demonstrated history of
-                    working ReactJS, MySQL, Laravel, Wordpress, SlimPHP, react
-                    Native and Sveltkit. Skilled in Engineering, Geomatics, FullStack Development, Software
-                    Development, and Geographic Information Systems (GIS). Strong
-                    engineering
-                    professional with a Bachelor's degree focused in Surveying
-                    Technology/Surveying from
-                    Midlands State University.
+                    Full stack developer with more than 5 years of experience in creating functional and user-friendly web and mobile applications. I have worked with various technologies and frameworks, such as ReactJS, MySQL, Laravel, WordPress, SlimPHP, React Native, GIS, AWS, Leaflet, and Sveltkit. I am proficient in both front-end and back-end development, as well as database management and deployment. I enjoy learning new skills and tools to improve my work and deliver high-quality products.
+                        I am adaptable and flexible to changing requirements and deadlines, and I always strive to meet the expectations of my clients and users.
                     </span>
                 </div>
 
