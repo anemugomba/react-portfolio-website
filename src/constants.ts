@@ -1,0 +1,1 @@
+export const S3_BASE_URL: string = 'https://anesu-portfolio-site.s3.amazonaws.com';

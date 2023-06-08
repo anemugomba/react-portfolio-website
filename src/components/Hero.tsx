@@ -30,7 +30,7 @@ export default function Hero() {
                 <div style={{ marginTop: 20 }} className='hero-buttons'>
 
                     <div style={{ marginRight: 10, display: 'inline' }}>
-                        <button className='hero-button hero-button-black'>Resume</button>
+                        <button className='hero-button hero-button-black' onClick={() => window.open('https://anesu-portfolio-site.s3.amazonaws.com/resume/Resume_Anesu_Mugomba.pdf','_blank')}>Resume</button>
                     </div>
 
                     <button className='hero-button hero-button-white'>Check my work</button>
