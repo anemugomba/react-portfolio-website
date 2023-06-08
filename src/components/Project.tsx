@@ -1,50 +1,62 @@
-import React from 'react'
+import React, {FC} from 'react'
 import Tag from './Tag'
+import Project from "../models/Project";
 
-export default function Project() {
+type ProjectCardProps = {
+    project : Project
+}
+const ProjectCard: FC<ProjectCardProps> = ({project}) => {
     return (
         <div className='project-card-container'>
             <div className='project-image-header'>
-                <img src='https://placehold.co/300x300.png' alt='Project Image' className='project-img' />
+                <img src={project.coverImage} alt='Project Cover' className='project-img' />
             </div>
+            <hr/>
             <div className='project-details'>
 
                 <div>
-                    <Tag name='MySql' />
-                    <Tag name='SlimPHP' />
-                    <Tag name='AWS' />
-                    <Tag name='+2' />
+                    {project.technologies.map(tech => {
+                        return <Tag name={tech} />
+                    })}
                 </div>
 
                 <div className='project-title'>
                     <span>
-                        Truckpark Admin
+                        {project.title}
                     </span>
                 </div>
 
                 <div className='project-description'>
                     <span>
-                        Calculating calculatable interaction between ai and humans. Will ai takover the world just like what McDonalds did to the ants while fishing.
-                        The solar system found love and went on to the roof of a battery. ...
+                        {project.description}
                     </span>
                 </div>
 
                 <div className="projects-buttons">
 
-                    <span>
-                        <i className="fa fa-github xl"></i>
-                    </span>
+                    {project.githubLink ? (
+                        <span>
+                            <i className="fa fa-github xl"></i>
+                        </span>
+                    ) : null}
 
-                    <span>
-                        <i className="fa fa fa-external-link"></i>
-                    </span>
+                    {project.liveLink ? (
+                        <span>
+                            <i className="fa fa fa-external-link"></i>
+                        </span>
+                    ) : null}
 
-                    <span>
-                        <i className="fa fa-info-circle"></i>
-                    </span>
+                    {project.moreInfoLink ? (
+                        <span>
+                            <i className="fa fa-info-circle"></i>
+                        </span>
+                    ) : null}
+
                 </div>
 
             </div>
         </div>
     )
 }
+
+export default ProjectCard

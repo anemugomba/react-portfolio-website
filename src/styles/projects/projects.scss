@@ -11,11 +11,17 @@
 
 .project-card-container:hover {
     transform: scale(1.02);
-    cursor: pointer
+    cursor: pointer;
 }
 .project-image-header {
     display: flex;
     justify-content: center;
+
+    .project-img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
 }
 
 .project-title {

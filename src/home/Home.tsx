@@ -1,8 +1,8 @@
 import React from 'react'
 import Hero from '../components/Hero';
-import Tag from '../components/Tag';
-import Project from '../components/Project';
+import ProjectCard from '../components/Project';
 import Contact from "../contact/Contact";
+import {projectsData} from "../data/data";
 
 export default function Home() {
     return (
@@ -18,14 +18,9 @@ export default function Home() {
             </div>
 
             <div className='projects-container'>
-                <Project/>
-                <Project/>
-                <Project/>
-                <Project/>
-                <Project/>
-                <Project/>
-                <Project/>
-                <Project/>
+                {projectsData.map((item, index) => {
+                    return <ProjectCard project={item} key={item.id}/>
+                })}
             </div>
 
             <Contact/>
