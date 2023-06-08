@@ -11,7 +11,7 @@ export default function Contact() {
             My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
         </p>
 
-        <button className='hero-button hero-button-black'>Say Hello</button>
+        <button className='hero-button hero-button-black' onClick={() => window.open('mailTo:anesucain@gmail.com', '_blank')}>Say Hello</button>
     </div>
   )
 }
