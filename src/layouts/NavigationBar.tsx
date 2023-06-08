@@ -32,10 +32,9 @@ function NavigationBar() {
           </span>
 
           <div className="url-container">
-            <Link to={{ pathname: "/" }} className="active">Home</Link>
-            <Link to={{ pathname: "/portfolio" }}>Projects</Link>
-            <Link to={{ pathname: "/contact" }}>Contact</Link>
-
+            <a href={"#home"}>Home</a>
+            <a href={"#portfolio"}>Projects</a>
+            <a href={"#contact-section"}>Contact</a>
           </div>
 
 
@@ -47,9 +46,9 @@ function NavigationBar() {
         {responsive ? (
           <div className='topnav-float'>
             <div className='topnav-popup-container'>
-              <Link to={{ pathname: "/home" }} className="active">Home</Link>
-              <Link to={{ pathname: "/about" }}>About Me</Link>
-              <Link to={{ pathname: "/contact" }}>Contact</Link>
+              <a href={"#home"}>Home</a>
+              <a href={"#portfolio"}>Projects</a>
+              <a href={"#contact-section"}>Contact</a>
             </div>
           </div>
         ) : null}

@@ -6,10 +6,10 @@ import {projectsData} from "../data/data";
 
 export default function Home() {
     return (
-        <div style={{paddingTop: 50,paddingBottom: 200}}>
+        <div style={{paddingTop: 50,paddingBottom: 200}} id="home">
             <Hero />
 
-            <div className='work-heading'>
+            <div className='work-heading' id="portfolio">
                 <span className='work-heading'>Personal Projects</span>
             </div>
             <div className='work-section-description'>
@@ -18,7 +18,9 @@ export default function Home() {
                 <span>If you have any questions for me feel free to ask me for more information.</span>
             </div>
 
-            <h1>Blank at the moment</h1>
+            <div style={{display: 'flex', alignItems: 'center', justifyContent: "center"}}>
+                <h5>Coming soon ...</h5>
+            </div>
             {/*<div className='projects-container'>
                 {projectsData.map((item, index) => {
                     return <ProjectCard project={item} key={item.id}/>
