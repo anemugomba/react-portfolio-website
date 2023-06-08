@@ -37,7 +37,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    place-items: center;
+    place-items: start center;
 }
 
 @media screen and (max-width: 1024px) {

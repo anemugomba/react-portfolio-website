@@ -15,8 +15,8 @@ const ProjectCard: FC<ProjectCardProps> = ({project}) => {
             <div className='project-details'>
 
                 <div>
-                    {project.technologies.map(tech => {
-                        return <Tag name={tech} />
+                    {project.technologies.map((tech, index) => {
+                        return <Tag name={tech} key={index}/>
                     })}
                 </div>
 
