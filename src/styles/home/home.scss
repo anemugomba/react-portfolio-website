@@ -34,28 +34,14 @@
 
 .projects-container {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    place-items: start center;
-}
 
-@media screen and (max-width: 1024px) {
-    .projects-container {
-        grid-template-columns: auto auto;
-    }
-}
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
-@media screen and (max-width: 768px) {
-    .projects-container {
-        grid-template-columns: auto;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .projects-container {
-        grid-template-columns: auto;
-    }
 }
 
 

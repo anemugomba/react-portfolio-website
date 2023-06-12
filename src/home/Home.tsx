@@ -38,10 +38,12 @@ export default function Home() {
                 <span>If you have any questions for me feel free to ask me for more information.</span>
             </div>
 
-            <div className='projects-container'>
-                {projectsData.map((item, index) => {
-                    return <ProjectCard project={item} key={index}/>
-                })}
+            <div>
+                <div className='projects-container'>
+                    {projectsData.map((item, index) => {
+                        return <ProjectCard project={item} key={index}/>
+                    })}
+                </div>
             </div>
 
             <Contact/>
