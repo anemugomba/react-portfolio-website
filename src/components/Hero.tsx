@@ -1,12 +1,19 @@
 import React from 'react'
+import hero from "../images/hero.jpg"
+import user from "../images/user.jpeg"
 
 export default function Hero() {
     return (
-        <div className='hero-container'>
+        <div className='hero-container' style={{ backgroundImage: `url(${hero})` }}>
+
+            <span className="credit">
+                <a href="https://www.freepik.com/free-vector/white-banner-with-triangle-halftone-shapes_30753109.htm#query=parttern&position=33&from_view=search&track=sph">Image by starline</a> on Freepik
+            </span>
+
             <div className='hero-left-section'>
                 <div className='hero-img-container'>
                     <div className='hero-img-placeholder'>
-                        <img src='https://placehold.co/200x200?text=Coming+Soon' alt='User Image' className='hero-img-placeholder'/>
+                        <img src={user} alt='User Image' className='hero-img-placeholder'/>
                     </div>
                 </div>
             </div>
